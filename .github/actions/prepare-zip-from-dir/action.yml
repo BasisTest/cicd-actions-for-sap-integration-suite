@@ -116,7 +116,7 @@ runs:
           echo "   → Using upload-artifact@v4"
         else
           echo "✅ Detected: GitHub Enterprise Server"
-          echo "   → Using upload-artifact@v3"
+          echo "   → Using upload-artifact@v4"
         fi
 
     - name: Upload ZIP artifact (v4 - GitHub Cloud)
