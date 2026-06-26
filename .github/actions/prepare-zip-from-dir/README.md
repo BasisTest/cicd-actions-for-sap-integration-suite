@@ -54,7 +54,7 @@ jobs:
           package-id: my-package-001
       
       - name: Upload as Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: packaged-artifact
           path: ${{ steps.package.outputs.location }}

@@ -29,7 +29,7 @@ jobs:
         uses: actions/checkout@v3
       
       - name: Download Package ZIP
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: integration-package-zip
       

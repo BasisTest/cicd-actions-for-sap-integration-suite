@@ -3,7 +3,7 @@
 #
 # Version History:
 # 1.0.0 - 2025-11-24 - Initial release (O. Weng)
-# 1.0.1 - 2026-01-28 - Changed to actions/upload-artifact@v3 to support also older GHES installations (O. Weng)
+# 1.0.1 - 2026-01-28 - Changed to actions/upload-artifact@v4 to support also older GHES installations (O. Weng)
 # 1.0.2 - 2026-02-26 - Use v4 for github.com/ghe.com, v3 for GHES (O. Weng)
 #
 name: Prepare ZIP Package from GIT

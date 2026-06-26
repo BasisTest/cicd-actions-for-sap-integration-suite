@@ -65,7 +65,7 @@ jobs:
           package-name: ${{ steps.resolve.outputs.name }}
       
       - name: Upload Backup
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: package-${{ steps.resolve.outputs.name }}
           path: ${{ runner.temp }}/pkg-123-456.zip

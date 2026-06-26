@@ -41,7 +41,7 @@ jobs:
           package-name: my-integration-package
       
       - name: Store as Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: package-backup
           path: ${{ steps.download.outputs.location }}
